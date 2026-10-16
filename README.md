@@ -43,17 +43,17 @@ Deployment: Live on Neocities  shows you can deploy static sites
 ### Key Features 
 
 1. Professional Navigation:
-2. 
+
 Dark Bootstrap navbar (`bg-dark navbar-dark`) with logo (`#logom`), brand text with line break, and responsive collapse for mobile
 
 Live links to Home / Gallery / Contact on Neocities
 
-4. Hero Section (BEM Styled):
-5. 
+2. Hero Section (BEM Styled):
+   
 `hero__h1` Welcome title, `hero__h2` About Us, `hero__p1` / `hero__p2` descriptive content about HTML5/CSS/JS fundamentals
 
-6. Purchase Tutorial Form - Core Business Logic (`mark` section):
-7. 
+3. Purchase Tutorial Form  Core Business Logic (`mark` section):
+ 
 Package Selection: `<select id="dropdown__text">` with Beginners Package €25 (`id="book" value="25"`) and Advanced Package €50 (`id="video" value="50"`)
 
 Quantity Input: `type="number"` with `min="0"` default 1, `required`
