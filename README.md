@@ -54,20 +54,20 @@ Live links to Home / Gallery / Contact on Neocities
 
 3. Purchase Tutorial Form  Core Business Logic (`mark` section):
  
-Package Selection: `<select id="dropdown__text">` with Beginners Package €25 (`id="book" value="25"`) and Advanced Package €50 (`id="video" value="50"`)
+4. Package Selection: `<select id="dropdown__text">` with Beginners Package €25 (`id="book" value="25"`) and Advanced Package €50 (`id="video" value="50"`)
 
-Quantity Input: `type="number"` with `min="0"` default 1, `required`
+5. Quantity Input: `type="number"` with `min="0"` default 1, `required`
 
-Address Input: `type="text"` `required` for delivery
+6. Address Input: `type="text"` `required` for delivery
 
-Gender Radio Group: Male/Female `required` validation
+7. Gender Radio Group: Male/Female `required` validation
 
-Buy Button: `.mark__mybutton` with `onclick="ValidateAndCalculate()"`  triggers validation + calculation + DOM rendering
+8. Buy Button: `.mark__mybutton` with `onclick="ValidateAndCalculate()"`  triggers validation + calculation + DOM rendering
 
-Live Purchase Summary:`.output #purchaseBox` dynamically shows product name, quantity, address, gender, total price (Quantity x Package Price)
+9. Live Purchase Summary:`.output #purchaseBox` dynamically shows product name, quantity, address, gender, total price (Quantity x Package Price)
 
-9. Client-Side Validation & Calculation:
-Your `script.js` implements:
+10. Client-Side Validation & Calculation:
+My `script.js` implements:
 
 Required field checks
 
