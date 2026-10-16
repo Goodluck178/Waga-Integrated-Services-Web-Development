@@ -1,0 +1,196 @@
+/* ---------------------- */
+/* Responsive Breakpoints */
+/* ---------------------- */
+
+/* xs — Extra small screens (≥475px) */
+/* Adjusts carousel width on small phones */
+/*
+@media (min-width: 475px){
+  .carouselDiv{
+    width: 53.33%;
+  }
+}
+*/
+
+/* sm — Small screens (≥640px) */
+/* Sets container max width for small devices */
+/*
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+*/
+
+/* md — Medium screens (≥768px) */
+/* Ensures carousel width stays consistent on tablets */
+/*
+@media (min-width: 768px){
+  .carouselDiv{
+    width: 53.33%;
+  }
+}
+*/
+
+/* lg — Large screens (≥1024px) */
+/* Sets container width for laptops */
+/*
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+*/
+
+/* xl — Extra large screens (≥1280px) */
+/* Sets container width for desktops */
+/*
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+*/
+
+/* 2xl — Very large screens (≥1536px) */
+/* Sets container width for ultra-wide monitors */
+/*
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+*/
+
+
+/* ---------------------- */
+/* Carousel Main Wrapper  */
+/* ---------------------- */
+
+.carouselDiv{
+  /* Main carousel container size and shape */
+  width: 53.33%;
+  height: 77.88vh; /* Uses viewport height for responsiveness */
+  border-radius: 3rem; /* Smooth rounded corners */
+  margin-left: 20%; /* Centers the carousel visually */
+  /* border: solid 5px yellow;  Debug border */
+}
+
+.carousel-inner{
+  /* Ensures inner carousel matches parent size */
+  width: 100%;
+  height: 77.88vh;
+  border-radius: 3rem;
+}
+
+.gallery__carousel{
+  /* Outer wrapper spacing and background */
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #fff;
+  color: black;
+  /* border: solid 20px #36039473;  Optional decorative border */
+}
+
+
+/* ---------------------- */
+/* Carousel Nav Button  */
+/* ---------------------- */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  /* Colors the left/right arrow icons */
+  background-color: #000;
+}
+
+
+/* ---------------------- */
+/* Carousel Images      */
+/* ---------------------- */
+
+#img1,#img2,#img3,#img4,
+#img5,#img6,#img7,#img8{
+  /* Ensures all images fill the slide area */
+  width: 100%;
+  height: 77vh;
+  border-radius: 2rem; /* Slightly smaller rounding than container */
+}
+
+.carousel-item{
+  /* Each slide container */
+  width: 100%;
+  height: 77vh;
+  /* margin-left: 15%; Optional slide offset */
+  /* border: solid 3px green; Debug border */
+}
+
+
+/* ---------------------- */
+/* Text Alignment       */
+/* ---------------------- */
+
+.mark__h3{
+  /* Aligns heading text to the right */
+  text-align: right;
+  margin-right: 10%;
+}
+
+
+/* ---------------------- */
+/* Form Elements (Disabled) */
+/* These are commented out but ready for future use */
+/* ---------------------- */
+
+/*
+#mark__input__number{
+  width: 90%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 2px solid #c9a227;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+*/
+
+/*
+#mark__input__text{
+  width: 90%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 2px solid #c92727;
+  border-radius: 6px;
+}
+*/
+
+/*
+#dropdown_text {
+  width: 90%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 2px solid #c9a227;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+*/
+
+/*
+#dropdown_text option {
+  background-color: #fff;
+  color: #000;
+  padding: 0.6rem;
+}
+*/
+
+/*
+.mark__mybutton { 
+ width: 10%;
+ height: 40px;
+ margin-left: 40%;
+ background-color: rgb(81, 150, 253);
+ color: rgba(255, 255, 255, 1);
+}
+*/

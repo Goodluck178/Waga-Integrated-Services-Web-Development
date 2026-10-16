@@ -1,0 +1,120 @@
+/* ============================
+Responsive Breakpoint
+(You can uncomment these when needed)
+============================ */
+
+/* xs: Extra small screens */
+/*
+@media (min-width: 475px){
+  .container{
+    max-width: 475px;
+  } 
+}
+*/
+
+/* sm: Small screens */
+/*
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+*/
+
+/* md: Medium screens */
+/*
+@media (min-width: 768px){
+  .container{
+    max-width: 760px;
+  }
+}
+*/
+
+/* lg: Large screens */
+/*
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+*/
+
+/* xl: Extra large screens */
+/*
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+*/
+
+/* 2xl: Very large screens */
+/*
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+*/
+
+
+/* ============================
+Global Reset
+Removes default browser spacing
+============================ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding doesn't increase element width */
+}
+
+
+/* ============================
+General Styles
+============================ */
+body{
+  font-family: sans-serif; /* Sets clean, modern default font */
+}
+
+
+/* ============================
+Text Styling
+============================ */
+#astrong{
+  margin-right: 2%;      /* Adds spacing on the right */
+  text-align: center;    /* Centers the text */
+}
+
+
+/* ============================
+Container Boilerplate
+Controls layout width and padding
+============================ */
+.container{
+  width: 100%;           /* Always take full width */
+  max-width: 100%;       /* Prevents container from exceeding screen width */
+  margin-left: auto;     /* Centers container horizontally */
+  margin-right: auto;
+  padding-left: 0.5rem;  /* Adds horizontal padding */
+  padding-right: 0.5rem;
+  /* border: solid 1px red;  Debug border */
+}
+
+
+/* ============================
+Smooth Scrolling
+Makes anchor links scroll smoothly
+============================ */
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* ============================
+Spacing Utilities
+Adds vertical spacing between sections
+============================ */
+.gaps{
+  margin-top: 1rem;
+  /* border: solid 20px red; Debug border */
+}

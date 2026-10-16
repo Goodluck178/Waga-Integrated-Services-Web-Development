@@ -1,0 +1,159 @@
+/* ============================
+Responsive Breakpoints
+Custom container widths for
+different screen sizes
+=============================== */
+
+/* xs — Extra small screens (≥475px) */
+/* @media (min-width: 475px){
+  .container{
+    max-width: 475px;
+  } 
+} */
+
+/* sm — Small screens (≥640px) */
+/* @media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+} */
+
+/* md — Medium screens (≥768px) */
+/* @media (min-width: 768px){
+  .container{
+    max-width: 760px;
+  }
+} */
+
+/* lg — Large screens (≥1024px) */
+/* @media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+} */
+
+/* xl — Extra large screens (≥1280px) */
+/* @media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+} */
+
+/* 2xl — Very large screens (≥1536px) */
+/* @media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+} */
+
+
+/* ============================
+Main Mark Section
+Wrapper for the form area
+=============================== */
+
+.mark{
+  margin-right: 10%;          /* Creates equal spacing on both sides */
+  margin-left: 10%;
+  background-color: #fff;     /* White background for clean layout */
+  color: black;               /* Default text color */
+  /* border: solid 10px #c92727;  Optional debug border */
+}
+
+/* Title inside the mark section */
+.mark__h3{
+  text-align: center;         /* Centers the heading */
+  margin-bottom: 1em;         /* Adds spacing below the title */
+}
+
+/* Form wrapper inside the mark section */
+.mark__form{
+  margin-right: 20%;          /* Centers the form with wider margins */
+  margin-left: 20%;
+  background-color: #fff;     /* Matches parent background */
+  color: black;
+  /* border: solid 1px #2b018d;  Optional debug border */
+}
+
+
+/* ============================
+Form Input Styles
+=============================== */
+
+/* Number input field */
+#mark__input__number{
+  width: 100%;                /* Full width for responsiveness */
+  padding: 0.6rem;            /* Comfortable padding */
+  font-size: 1rem;            /* Readable text size */
+  /* border: 2px solid #c9a227;  Optional border */
+  border-radius: 6px;         /* Smooth rounded corners */
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;            /* Indicates interactivity */
+}
+
+/* Text input field */
+#mark__input__text{
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  /* border: 2px solid #c92727;  Optional border */
+  border-radius: 6px;
+}
+
+/* Dropdown select field */
+#dropdown__text{
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  /* border: 2px solid #c9a227;  Optional border */
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Dropdown options styling */
+#dropdown_text option {
+  background-color: #fff;
+  color: #000;
+  padding: 0.6rem;
+}
+
+
+/* ============================
+Button Styling
+=============================== */
+
+.mark__mybutton { 
+ width: 3rem;                 /* Small button width */
+ height: 40px;                /* Standard button height */
+ margin-left: 40%;            /* Centers button horizontally */
+ background-color: rgb(81, 150, 253); /* Blue background */
+ color: rgba(255, 255, 255, 1);        /* White text */
+ /* border: solid red 3px;  Optional debug border */
+ border-radius: 0.25rem;      /* Slight rounding */
+}
+
+
+/* ============================
+Output Box (Hidden by default)
+=============================== */
+
+.output {
+  margin-top: 20px;           /* Space above output box */
+  padding: 20px;              /* Inner spacing */
+  border-radius: 8px;         /* Smooth rounded corners */
+  background: #f8f9fa;        /* Light grey background */
+  border: 1px solid #ddd;     /* Subtle border */
+  display: none;              /* Hidden until triggered */
+}
+
+/* Output title styling */
+.output__title {
+  font-size: 1.4rem;          /* Larger title text */
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;                /* Dark grey text */
+  text-decoration: underline; /* Underlined title */
+}

@@ -1,0 +1,79 @@
+ /* ===========================
+   Footer Styling
+   Centers text, adds spacing,
+   and applies dark theme
+=========================== */
+.footer{
+  text-align: center;        /* Centers footer text */
+  padding: 0.5rem;           /* Adds inner spacing */
+  color: white;              /* White text color */
+  background-color: black;   /* Black background */
+  line-height: 3em;          /* Increases vertical spacing */
+}
+
+/* ===========================
+   Responsive Container Widths
+   Breakpoints for different
+   screen sizes (commented out)
+=========================== */
+
+/*xs: Extra small screens (≥475px) */
+/* Sets container width for small phones */
+/*@media (min-width: 475px){
+  .container{                            
+    max-width: 475px;
+  } 
+}*/
+
+
+/* c: Custom breakpoint (≥576px) */
+/* Slightly larger phones */
+/* @media (min-width: 576px){
+  .container{
+    max-width: 576px;
+  }
+} */
+
+/* sm: Small screens (≥640px) */
+/* Large phones / small tablets */
+/* @media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+} */
+
+
+/* md: Medium screens (≥768px) */
+/* Tablets */
+/* @media (min-width: 768px){
+  .container{
+    max-width: 760px;
+  }
+} */
+
+
+/* lg: Large screens (≥1024px) */
+/* Small laptops */
+/* @media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+} */
+
+
+/* xl: Extra large screens (≥1280px) */
+/* Desktops */
+/* @media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+} */
+
+
+/* 2xl: Very large screens (≥1536px) */
+/* Large desktops / wide monitors */
+ /* @media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+} */

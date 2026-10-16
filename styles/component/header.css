@@ -1,0 +1,83 @@
+/* ============================
+   Header Styling
+   ============================ */
+   /* Sets header background using RGBA */
+.header{
+  background-color: rgba(140, 140, 132, 1); 
+}
+
+/* ============================
+ Extra-Small Breakpoint(≥475px)
+ Adjusts logo size on small screens
+ ============================ */
+  /* Scales logo width for better visibility */
+@media (min-width: 475px){
+  #logom{
+    width: 4rem; 
+  }
+}
+
+/* ============================
+   Optional Container Breakpoint
+   Uncomment any section to activate
+   ============================ */
+
+/* Custom breakpoint (c) */
+/* Sets container width for small devices */
+/*
+@media (min-width: 576px){
+  .container{
+    max-width: 576px;  
+  }
+}
+*/
+
+/* Small (sm) */
+/* Standard small-screen container width */
+/*
+@media (min-width: 640px){
+  .container{
+    max-width: 640px; 
+  }
+}
+*/
+
+/* Medium (md) */
+/* Adjusts layout for tablets */
+/*
+@media (min-width: 768px){
+  .container{
+    max-width: 760px; 
+  }
+}
+*/
+
+/* Large (lg) */
+/* Desktop layout width */
+/*
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px; 
+  }
+}
+*/
+
+/* Extra Large (xl) */
+/* Wider desktop screens */
+/*
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px; 
+  }
+}
+*/
+
+/* 2XL (xxl) */
+/* Very large screens and monitors */
+/*
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px; 
+  }
+}
+*/

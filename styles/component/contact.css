@@ -1,0 +1,102 @@
+/* ============================
+Responsive Container Sizes
+Breakpoints for different screens
+=============================== */
+
+/* xs — Extra small screens */
+ /* @media (min-width: 475px){
+  .container{
+    max-width: 475px;
+  } 
+} */
+
+/* sm — Small screens */
+ /* @media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+} */
+
+/* md — Medium screens */
+ /* @media (min-width: 768px){
+  .container{
+    max-width: 760px;
+  }
+} */
+
+/* lg — Large screens */
+ /* @media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+} */
+
+/* xl — Extra large screens */
+ /* @media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+} */
+
+/* 2xl — Very large screens */
+ /* @media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+} */
+
+
+/* ============================
+Contact Section Styles
+=============================== */
+
+/* Wrapper for contact section links or text */
+.contact__a{
+  margin-right: 10%;       /* Adds spacing on right */
+  margin-left: 10%;        /* Adds spacing on left */
+  background-color: #fff;  /* White background */
+  color: black;            /* Black text */
+  /* border: solid 1px #c92727;  Optional border */
+}
+
+/* Contact form container */
+.contact__form{
+  margin-right: 20%;       /* Centers form by adding side margins */
+  margin-left: 20%;
+  background-color: #fff;  /* White background */
+  color: black;            /* Black text */
+  /* border: solid 1px #2b018d; Optional border */
+}
+
+/* Contact section heading */
+.contact__h3{
+  text-align: left;        /* Aligns heading to the left */
+  margin-right: 10%;       /* Adds spacing on right */
+}
+
+/* Text input fields */
+.contact__input__text{
+  width: 90%;              /* Makes input almost full width */
+  padding: 0.6rem;         /* Inner spacing */
+  font-size: 1rem;         /* Readable text size */
+  /* border: 2px solid #c92727; Optional border */
+  border-radius: 6px;      /* Smooth rounded corners */
+}
+
+/* Message textarea */
+#contact__txt{
+  width: 90%;              /* Full width */
+  height: 11.25rem;        /* Fixed height for message box */
+  padding-left: 0.3rem;    /* Slight left padding */
+  /* border: 2px solid #c92727; Optional border */
+}
+
+/* Submit button */
+#contact__mybutton { 
+ width: 5rem;                       /* Button width */
+ height: 2.5rem;                    /* Button height */
+ margin-left: 40%;                  /* Centers button horizontally */
+ background-color: rgb(81,150,253); /* Blue background */
+ color: rgba(255,255,255,1);        /* White text */
+ border-radius: 0.25rem;            /* Rounded corners */
+}

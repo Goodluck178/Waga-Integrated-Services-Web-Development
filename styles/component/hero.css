@@ -1,0 +1,75 @@
+/* ============================
+  Hero Section Styling
+  ============================ */
+.hero{
+  background-color: rgba(0, 102, 255, 1); /* Solid blue background */
+  text-align: center; /* Centers all text inside the hero */
+  color: rgba(255, 215, 0, 1); /* Gold text color */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Serif font stack */
+}
+
+
+/* ============================
+  Responsive Breakpoint
+  Container max-width settings
+  ============================ */
+
+/* xs — Extra small screens (≥475px) */
+/* Limits container width on small phones */
+/*
+@media (min-width: 475px){
+  .container{
+    max-width: 475px; 
+  } 
+}
+*/
+
+/* sm — Small screens (≥640px) */
+/* Suitable for larger phones */
+/*
+@media (min-width: 640px){
+  .container{
+    max-width: 640px; 
+  }
+}
+*/
+
+/* md — Medium screens (≥768px) */
+/* Tablet layout width */
+/*
+@media (min-width: 768px){
+  .container{
+    max-width: 760px; 
+  }
+}
+*/
+
+/* lg — Large screens (≥1024px) */
+/* Small laptop screens */
+/*
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px; 
+  }
+}
+*/
+
+/* xl — Extra large screens (≥1280px) */
+/* Desktop screens */
+/*
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px; 
+  }
+}
+*/
+
+/* 2xl — Very large screens (≥1536px) */
+/* Wide monitors */
+/*
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px; 
+  }
+}
+*/
