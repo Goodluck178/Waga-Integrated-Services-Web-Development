@@ -12,65 +12,43 @@
 
 WAGA Integrated Services is a tutorial sales platform that allows users to purchase Beginners and Advanced web development packages. 
 
-This project was built to demonstrate pure client-side fundamentals without frameworks, a core requirement that enterprise employers use to differentiate candidates who truly understand the browser from those who only know React.
-
+This project was built to demonstrate pure client-side fundamentals without frameworks.
 The app handles a complete client-side purchase flow: package selection, quantity handling, address capture, gender selection, validation, total price calculation (€25/€50 packages), and dynamic purchase summary rendering.
 
 ### Tech Stack 
 
- `index.html`:
+Semantic HTML5 
 
-HTML5: Semantic structure with `<nav>`, `<main>`, `<section>`, `<footer>`, accessible forms
+CSS 
+    
+Framework: 
 
-CSS Architecture - BEM Methodology:
+Bootstrap 5.3.8 
 
-  My code uses professional BEM naming: `header__astrong`, `hero__h1`, `hero__h2`, `hero__p1`, `mark__h3`, `mark__form`, `mark__dropdown`, `mark__input__number`, `output__title`
-  
-    This is exactly scalable CSS, not inline styles
-    
-    Component CSS files: `styles/component/footer.css`, `mark.css`, `header.css`, `hero.css` + `styles/style.css`
-    
-Framework: Bootstrap 5.3.8 via CDN for responsive navbar (`navbar-expand-sm`, `navbar-toggler`, `collapse`) and layout (`container`, `container-fluid`)
-
-JavaScript: Vanilla JS with `ValidateAndCalculate()` function handling:
-
-    Dropdown value reading (`#dropdown__text`, `#book` value 25, `#video` value 50)
-    
-    Quantity validation (`#mark__input__number`)
-    
-    Address input (`#mark__input__text`)
-    
-    Radio button gender logic (`#male`, `#female`)
-    
-    Dynamic DOM updates: `#productName`, `#quantityOutput`, `#AddressOutput`, `#genderOutput`, `#totalPriceOutput` inside `#purchaseBox`
-    
+Vanilla JavaScript  
 
 ### Key Features 
 
-1. Professional Navigation:
+1. Professional Navigation
 
-Dark Bootstrap navbar (`bg-dark navbar-dark`) with logo (`#logom`), brand text with line break, and responsive collapse for mobile
+2. Hero Section (BEM Styled)
 
-
-2. Hero Section (BEM Styled):
-   
-`hero__h1` Welcome title, `hero__h2` About Us, `hero__p1` / `hero__p2` descriptive content about HTML5/CSS/JS fundamentals
-
-3. Purchase Tutorial Form  Core Business Logic (`mark` section):
+3. Purchase Tutorial Form  Core Business Logic
  
-4. Package Selection: `<select id="dropdown__text">` with Beginners Package €25 (`id="book" value="25"`) and Advanced Package €50 (`id="video" value="50"`)
+4. Package Selection
 
-5. Quantity Input: `type="number"` with `min="0"` default 1, `required`
+5. Quantity Input
+ 
+6. Address Input
+  
+7. Gender Radio Group
 
-6. Address Input: `type="text"` `required` for delivery
+8. Buy Button
+   
+9. Live Purchase Summary
 
-7. Gender Radio Group: Male/Female `required` validation
-
-8. Buy Button: `.mark__mybutton` with `onclick="ValidateAndCalculate()"`  triggers validation + calculation + DOM rendering
-
-9. Live Purchase Summary:`.output #purchaseBox` dynamically shows product name, quantity, address, gender, total price (Quantity x Package Price)
-
-10. Client-Side Validation & Calculation:
+10. Client-Side Validation & Calculation
+11. 
 My `script.js` implements:
 
 Required field checks
@@ -82,6 +60,7 @@ Real-time DOM injection without page reloads
 User feedback via output box
 
 ### Actual File Structure
+
 waga_integrated_services_web_development/
 
 index.html (Your provided file - Navbar + Hero + Purchase Form + Footer)
@@ -105,7 +84,7 @@ footer.css (.footer)
 images/
 logo.png
  
-### How to Run Locally
+### How to Run 
 
 No build step - Pure client-side,
 
@@ -113,9 +92,9 @@ No build step - Pure client-side,
 
 # Clone
 
-git clone https://github.com/YOUR_USERNAME/Client_Scripting_Assignment.git
+git clone https://github.com/Goodluck178/Waga-Integrated-Services-Web-Development.git
 
-cd Client_Scripting_Assignment
+cd waga_integrated_services_web_development
 
 # Run - Just open index.html
 
