@@ -51,7 +51,7 @@ Vanilla JavaScript
     
 My `script.js` implements:
 
-Required field checks
+### Required field checks
 
 Quantity x Price calculation
 
