@@ -4,6 +4,10 @@
 
  A responsive, component-based web application for selling web development tutorials, built with Vanilla JavaScript, Bootstrap 5, and BEM (Block – Element – Modifier} CSS architecture. Features real-time form validation, price calculation, and DOM-driven purchase feedback.
 
+ ### Live demo
+ 
+ #### Link: https://waga.morganugochukwu.com/index.html
+
 ### Project Overview
 
 WAGA Integrated Services is a tutorial sales platform that allows users to purchase Beginners and Advanced web development packages. 
@@ -40,7 +44,6 @@ JavaScript: Vanilla JS with `ValidateAndCalculate()` function handling:
     
     Dynamic DOM updates: `#productName`, `#quantityOutput`, `#AddressOutput`, `#genderOutput`, `#totalPriceOutput` inside `#purchaseBox`
     
-Deployment: Live on Neocities  shows you can deploy static sites
 
 ### Key Features 
 
@@ -48,7 +51,6 @@ Deployment: Live on Neocities  shows you can deploy static sites
 
 Dark Bootstrap navbar (`bg-dark navbar-dark`) with logo (`#logom`), brand text with line break, and responsive collapse for mobile
 
-Live links to Home / Gallery / Contact on Neocities
 
 2. Hero Section (BEM Styled):
    
@@ -80,7 +82,7 @@ Real-time DOM injection without page reloads
 User feedback via output box
 
 ### Actual File Structure
-Client_Scripting_Assignment/
+waga_integrated_services_web_development/
 
 index.html (Your provided file - Navbar + Hero + Purchase Form + Footer)
 
@@ -125,4 +127,4 @@ cd Client_Scripting_Assignment
 
 # Live Deployed Version:
 
-# https://ugochukwu-ofodum-school-project.neocities.org/Client_Scripting_Ass
+# https://waga.morganugochukwu.com/index.html
