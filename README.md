@@ -48,7 +48,7 @@ Vanilla JavaScript
 9. Live Purchase Summary
 
 10. Client-Side Validation & Calculation
-11. 
+    
 My `script.js` implements:
 
 Required field checks
