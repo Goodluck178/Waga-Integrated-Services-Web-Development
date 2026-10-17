@@ -48,10 +48,10 @@ Vanilla JavaScript
 9. Live Purchase Summary
 
 10. Client-Side Validation & Calculation
-    
-My `script.js` implements:
+   
+### My `script.js` implements:
 
-### Required field checks
+Required field checks
 
 Quantity x Price calculation
 
